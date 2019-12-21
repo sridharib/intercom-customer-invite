@@ -38,7 +38,8 @@ public class CustomerInviteApplication implements CommandLineRunner {
 
 		List<Customer> customers = customerInviteService.fetchCustomers(100D, "K");
 		log.info("These customers are within the given range {} {}", 100D, "K");
-		log.info("{}", customers);
+		customers.forEach(customer -> log.info(customer.toString()));
+		customers.forEach(System.out::println);
 	}
 
 }

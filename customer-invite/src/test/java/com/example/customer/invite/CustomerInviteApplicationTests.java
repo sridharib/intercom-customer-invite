@@ -7,7 +7,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 class CustomerInviteApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void testMain() {
+		
+		new CustomerInviteApplication().main(new String[] {});
 	}
 
 }

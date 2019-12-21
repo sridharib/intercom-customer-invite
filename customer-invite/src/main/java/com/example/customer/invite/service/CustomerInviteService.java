@@ -12,7 +12,8 @@ public interface CustomerInviteService {
 	 * @param range
 	 * @param unit
 	 * @return List of customers who falls in the range
+	 * @throws Exception 
 	 */
-	List<Customer> fetchCustomers(Double range, String unit);
+	List<Customer> fetchCustomers(Double range, String unit) throws Exception;
 
 }

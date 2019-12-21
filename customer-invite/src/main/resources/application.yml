@@ -1,0 +1,6 @@
+customer:
+  file-name: customers.txt
+
+company:
+  latitude: 53.339428
+  longitude: -6.257664
